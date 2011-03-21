@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Folder><name>Ravintolat</name><open>1</open><description>Ravintolat</description>
+<Placemark><name>Loma- ja kurssikeskus Lepola</name><description>Sipurantie 32</description><Point><coordinates>25.770502,61.011402</coordinates></Point></Placemark>
+<Placemark><name>Avoin Yhtiö Roppilan Krouvi</name><description>Ma-To klo 6-21 Pe klo 6-23.30 La klo 8-23.30 Su Suljettu</description><Point><coordinates>23.512744,60.632388</coordinates></Point></Placemark>
+<Placemark><name>Rauhalan Kievari</name><description>Rauhallinen ja tasokas majoituspaikka maaseutuympäristössä.</description><Point><coordinates>25.792828,64.005014</coordinates></Point></Placemark>
+<Placemark><name>T:mi MustanKorpin kiinteistö</name><description>Simunankoskentie 8</description><Point><coordinates>26.040080,62.224870</coordinates></Point></Placemark>
+<Placemark><name>Merikaarron Siltagrilli</name><description>Avoinna: Ma-to 16-22, Pe-la 22-01.30, Su 13-22 </description><Point><coordinates>21.946000,63.079194</coordinates></Point></Placemark>
+<Placemark><name>La Caramba</name><description>Avoinna arkisin klo 10.30-16 La-Su klo 12-18 Muuten avoinna tilauksesta.</description><Point><coordinates>24.825258,60.255552</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Samrat</name><description>Intialainen ravintola, avoinna ma-to 11-23, pe 11-23.30, la 12-23.30, su 14-22</description><Point><coordinates>24.944444,60.166944</coordinates></Point></Placemark>
+<Placemark><name>Härkäpakari</name><description>Matkamuistot, Matkalaukut, Laukut, Käsineet, Lompakot Ja Vyöt</description><Point><coordinates>22.681019,61.174764</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Alberga </name><description>Leipurinkuja 2</description><Point><coordinates>24.811361,60.223181</coordinates></Point></Placemark>
+<Placemark><name>Pizza Bravo</name><description>Ma:suljettu. ti-to: 11-21, pe-la: 11-22. Su: 12-21</description><Point><coordinates>26.701436,60.867922</coordinates></Point></Placemark>
+<Placemark><name>Bernys Kahvila &amp; Ravintola</name><description>Ravintolassa on päivittäin seisova kalapöytä. Maailmanperintö info. Kahvilassa elintarvikekioski sekä veikkauspiste. Maailmanperintöristeilyt. Syvä ja hyvä satama. Uutuutena vuonna 2011 alkaen: saunapalvelut.</description><Point><coordinates>21.463593,63.206890</coordinates></Point></Placemark>
+<Placemark><name>Taverna Zorbas</name><description>Läntinen Brahenkatu 4 A</description><Point><coordinates>24.948086,60.187511</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Ukko-Pekka Oy</name><description>Lounas- ja viihderavintola.</description><Point><coordinates>28.304551,60.862425</coordinates></Point></Placemark>
+<Placemark><name>Pikku Quattro</name><description>MA-To 10:30-22:00,PE 10:30-23:00,LA 11:00-23:00,SU 12:00-22:00</description><Point><coordinates>21.619907,63.094655</coordinates></Point></Placemark>
+<Placemark><name>Cimenköy</name><description>Avoinna joka päivä klo 11-22</description><Point><coordinates>21.506980,62.254953</coordinates></Point></Placemark>
+<Placemark><name>Iisalmen Olutmestari Oy</name><description>Avoinna su-to 11-24 ja  pe-la 11-02</description><Point><coordinates>27.186366,63.554830</coordinates></Point></Placemark>
+<Placemark><name>Akkavaara Oy</name><description>Myllytie 1</description><Point><coordinates>28.671001,66.832695</coordinates></Point></Placemark>
+<Placemark><name>Lounasravintola Sininen Hetki Oy</name><description>Savusauna Aukioloajat ma-to 11-20,pe 11-21,la 12-21, su 12-20</description><Point><coordinates>21.224816,62.390966</coordinates></Point></Placemark>
+<Placemark><name>Pedrina's Bar Cantina</name><description>Reilusti maukasta texmex-ruokaa!</description><Point><coordinates>23.131750,63.835533</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Andalucia</name><description>Aukioloajat Ma klo 11-18 Ti-Pe klo 11-23 La klo 13-23 Su klo 13-18</description><Point><coordinates>21.793483,61.487466</coordinates></Point></Placemark>
+<Placemark><name>Koivulahden Rapukartano</name><description>Tilausravintola, sekä juhla- ja kokouspalvelut.</description><Point><coordinates>24.590750,61.993583</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Vintti</name><description>Avoinna ma-to klo 11-21 pe klo 11-23 la klo 12-23</description><Point><coordinates>27.658429,63.073203</coordinates></Point></Placemark>
+<Placemark><name>Kahvila-Ravintola Juvan Helmi Ky</name><description>Lounaskahvila, avoinna arkisin 8.30-18.00</description><Point><coordinates>27.858041,61.897974</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Bulevardi</name><description>Kauppatie 2</description><Point><coordinates>25.277933,60.869383</coordinates></Point></Placemark>
+<Placemark><name>Samperi Oy</name><description>Avoinna klo 11-22 joka päivä 14.6. alkaen</description><Point><coordinates>28.139666,67.299400</coordinates></Point></Placemark>
+<Placemark><name>Savutuvan Apaja Oy</name><description>Tilausravintola ja majoitus</description><Point><coordinates>25.839533,62.221883</coordinates></Point></Placemark>
+<Placemark><name>I &amp; M Oikkonen Ky</name><description>Avoinna talviaikaan ma-la 10-21, su 12-21, sekä kesäaikaan ma-la 10-22, su 12-22</description><Point><coordinates>21.611297,63.095983</coordinates></Point></Placemark>
+<Placemark><name>Kantolan Lounas-Ravintola Myllytupa</name><description>Avoinna: Ma-Pe klo 7.30 - 15.00. La-Su suljettu. Lounas klo 10.30 - 14.00. Vanajan Keksin tehtaanmyymälä.</description><Point><coordinates>24.494616,60.983133</coordinates></Point></Placemark>
+<Placemark><name>Kahvila Saima</name><description>Kahvila/Tilausravintola/Pitopalvelu/Perhejuhlat/Kokoukset/Yritystilaisuudet. A-oikeudet. Kahvila avoinna ympäri vuoden: ma-pe klo 10-18, la klo 10-16 ja su klo 12-16.</description><Point><coordinates>28.894581,61.864979</coordinates></Point></Placemark>
+<Placemark><name>Jyväskylän Food Bar</name><description>Kauppalaispiha 3</description><Point><coordinates>25.746689,62.243685</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Räksy</name><description>Arkisin maittava lounas 11.00-14.30. Ruoka-annoksia listalta,keittiö auki aina. Myös lihikset ja hampparit. Herkulliset sämpylät ja omatekoiset makeat ja suolaiset leivonnaiset.</description><Point><coordinates>26.782604,60.769823</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Paalupaikka</name><description>Päivänsäteenkatu 2</description><Point><coordinates>25.778568,61.009190</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Ylämummo</name><description>Koko perheen urheiluravintola. Pizzat, hot wingsit yms. Uusi upea saunaosasto.</description><Point><coordinates>25.666366,60.982300</coordinates></Point></Placemark>
+<Placemark><name>Haminan Varuskuntakerho</name><description>Aukioloajat 7.6. alkaen: ma-pe 11-15, la ja su -illat tilauksesta</description><Point><coordinates>27.200550,60.568650</coordinates></Point></Placemark>
+<Placemark><name>Hämeen Tuoppi</name><description>Avoinna arkisin 10-24, viikonloppuisin 10-02</description><Point><coordinates>25.187060,61.562910</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Vihtori</name><description>Avoinna ma-to 9-24, pe-la 9-02, su 9-22</description><Point><coordinates>24.804760,60.174410</coordinates></Point></Placemark>
+<Placemark><name>Wing Wah</name><description>Ark:11-22 La:12-22 Su:12-21</description><Point><coordinates>25.083610,60.238230</coordinates></Point></Placemark>
+<Placemark><name>Eijan grilli</name><description>Avoinna arkisin 05-15</description><Point><coordinates>22.310500,60.444300</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Himshikar</name><description>Avoinna arkisin 10.30-23.00 ja viikonloppuisin 12-23</description><Point><coordinates>24.950530,60.177800</coordinates></Point></Placemark>
+<Placemark><name>Pearl bar</name><description>Avoinna arkisin 09-24 ja viikonloppuisin 09-02</description><Point><coordinates>24.435840,60.125990</coordinates></Point></Placemark>
+<Placemark><name>Kuhmon Ruokapaikka  </name><description>Ark. 08-17 La 08-13 Muina aikoina sopimuksen mukaan.</description><Point><coordinates>29.519930,64.129130</coordinates></Point></Placemark>
+<Placemark><name>Ravintola 3 kaisaa</name><description>Hämeentie 29</description><Point><coordinates>29.156354,65.989605</coordinates></Point></Placemark>
+<Placemark><name>Sokeri-Jussin Kievari</name><description>Kievari on avoinna joka päivä ympäri vuoden. Arkisin avaamme klo 11 ja sunnuntaisin klo 12. Keittiö palvelee joka päivä klo 23 saakka</description><Point><coordinates>25.459016,65.016885</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Sohwi</name><description>Avoinna ma 14-24, ti-pe 14-01, la 12-02 ja su 14-24</description><Point><coordinates>25.738415,62.237807</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Vanha Kelo</name><description>ma-to 5.30-22 pe 5.30-01 la 8-03 su 10-22</description><Point><coordinates>26.461716,61.059333</coordinates></Point></Placemark>
+<Placemark><name>Ikaalisten Kylpylä Oy</name><description>Ikaalisten Kylpylä - meillä tehdään uusia ihmisiä</description><Point><coordinates>23.020879,61.775604</coordinates></Point></Placemark>
+<Placemark><name>Ravintola White Lady</name><description>Auki  ma 11.00 - 20.00 ti-to 11.00 - 22.00 pe 11.00 - 23.00 la 13.00 - 23.00 su 13.00 - 20.00. Paikoitustilaa ravintolan edessä, kabinetteja neljä eri kokoista 2 - 50 henkilölle. Kokouksiin, juhliin, ym. kokousvälineet. Lasten annokset 3-6 </description><Point><coordinates>24.903630,60.195520</coordinates></Point></Placemark>
+<Placemark><name>Vaelsa Oy</name><description>Annankatu 4</description><Point><coordinates>24.942090,60.163960</coordinates></Point></Placemark>
+<Placemark><name>Himal Oy</name><description>Avoinna ark. 11-23 la-su 12-23</description><Point><coordinates>24.945440,60.163760</coordinates></Point></Placemark>
+<Placemark><name>Orient Kebab</name><description>ma-to 10:30-21:00 pe 10:30-04:00 la 12:00-04:00 su 12:00-21:00</description><Point><coordinates>25.376880,65.323070</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Wanha Mylly</name><description>Johan Sederholmin tie 7</description><Point><coordinates>25.042860,60.191670</coordinates></Point></Placemark>
+<Placemark><name>Ikahovi</name><description>Avoinna Ma-to klo 11-24, Pe-la klo 11-02 (04), Su klo 11-22</description><Point><coordinates>23.053678,61.771006</coordinates></Point></Placemark>
+<Placemark><name>Kasvisravintola Keidas</name><description>Itäinen Rantakatu 61</description><Point><coordinates>22.242500,60.439380</coordinates></Point></Placemark>
+<Placemark><name>Hausjärven Serafiina Oy</name><description>Avoinna ark. 06-18 la-su 09-18</description><Point><coordinates>24.996730,60.791660</coordinates></Point></Placemark>
+<Placemark><name>Kievari Enonhovi Oy</name><description>Tervetuloa herkuttelemaan ja rentoutumaan Enonkoskelle!</description><Point><coordinates>28.915690,62.089700</coordinates></Point></Placemark>
+<Placemark><name>Maku Pirtti 66</name><description>Avoinna Ark 08:30-15:00 Viikonloppuisin tilauksesta.</description><Point><coordinates>23.601890,62.570060</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Antiokia Atabar</name><description>Avoinna arkisin 13-21, la 13-02 ja su 13-21</description><Point><coordinates>24.927700,60.164340</coordinates></Point></Placemark>
+<Placemark><name>Kemin Puistopaviljonki / Pizzeria San Milano</name><description>Kemin Puistopaviljonki / Pizzeria San Milano. Avoinna päivittäin.</description><Point><coordinates>24.555860,65.732630</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Toscana</name><description>MA-TO 11-21, PE 11-23, LA 12-23,SU 12-21, Arkipyhät 12-21</description><Point><coordinates>25.481980,65.011140</coordinates></Point></Placemark>
+<Placemark><name>Olympix Oy</name><description> Olympix Bar &amp; Cafe:n henkilökunta toivottaa Sinut tervetulleeksi viikon jokaisena päivänä klo 12.00 alkaen.</description><Point><coordinates>24.928760,60.183620</coordinates></Point></Placemark>
+<Placemark><name>Ravintola House Pub</name><description>Avoinna ma-to 14-02 pe-la 12-03 su 12-02</description><Point><coordinates>25.406580,65.079250</coordinates></Point></Placemark>
+<Placemark><name>Pyhämaan ruori</name><description>Pyhämaanraitti 35</description><Point><coordinates>21.369450,60.949950</coordinates></Point></Placemark>
+<Placemark><name>Pizzeria Kebab Best</name><description>Avoinna joka päivä klo 11-21</description><Point><coordinates>23.625734,63.217823</coordinates></Point></Placemark>
+<Placemark><name>Apidylli Ky</name><description>Eurantie 18</description><Point><coordinates>22.134210,61.126870</coordinates></Point></Placemark>
+<Placemark><name>Kalakeidas</name><description>Avoinna joka päivä klo. 9-19. Kesä-, heinä- ja elokuussa 9-20.</description><Point><coordinates>23.575840,61.741570</coordinates></Point></Placemark>
+<Placemark><name>Pizzeria Drenasi</name><description>Avoinna ma-to 10.30-21, pe-la 11-22 ja su 11-21</description><Point><coordinates>25.376400,60.475680</coordinates></Point></Placemark>
+<Placemark><name>Kenkävero</name><description>Avoinna ma-pe 10-18, la 10-16, su 10-18</description><Point><coordinates>27.282161,61.682680</coordinates></Point></Placemark>
+<Placemark><name>Selotos Oy ravintolat</name><description>Ristorante Siciliano</description><Point><coordinates>24.949540,60.168976</coordinates></Point></Placemark>
+<Placemark><name>Selotos Oy ravintolat</name><description>Ristorante Siciliano 2</description><Point><coordinates>24.967314,60.289777</coordinates></Point></Placemark>
+<Placemark><name>Selotos Oy ravintolat</name><description>Pikku Santorini</description><Point><coordinates>24.967314,60.289777</coordinates></Point></Placemark>
+<Placemark><name>Ristorante de Passione</name><description>Italialainen ravintola, lounaspöytä, á la carte, sauna, kokoustilat, terassi joelle päin, sekä herkkupuodista italialaisia juustoja ja makkaroita</description><Point><coordinates>29.751415 ,62.569501</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Nyyrikki</name><description>Teatteriravintola Nyyrikki / Pub Päätön Kana / Taverna Pohjan Akka</description><Point><coordinates>24.943750,60.214120</coordinates></Point></Placemark>
+<Placemark><name>Varvara Oy</name><description>Avoinna ma-pe 07-18, la 07-15, sunnuntaisin suljettu</description><Point><coordinates>27.190465,60.567677</coordinates></Point></Placemark>
+<Placemark><name>Kaavya Kitchen </name><description>ma-to 10:30-22:00, pe 10:30-23:00, la-su 10:30-22:00</description><Point><coordinates>23.137310,63.837510</coordinates></Point></Placemark>
+<Placemark><name>Lounasravintola Mocca</name><description>Avoinna arkisin 8.30-14.30</description><Point><coordinates>25.785265,62.271680</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Otava</name><description>Viluntie 1</description><Point><coordinates>21.944600,60.376080</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Rytmi</name><description>Avoinna: Ma-La 11-02</description><Point><coordinates>24.950050,60.180930</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Salonika</name><description>Laurinkatu 51 B</description><Point><coordinates>24.064080,60.249910</coordinates></Point></Placemark>
+<Placemark><name>Garelli Catering Oy</name><description>Avoinna klo. 10-22</description><Point><coordinates>25.602970,62.590440</coordinates></Point></Placemark>
+<Placemark><name>Tei-Tupa</name><description>Avoinna joka päivä klo 7.00 - 21.00</description><Point><coordinates>22.990210,61.787851</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Stadin Tähti</name><description>Mäkelänkatu 2</description><Point><coordinates>24.964067,60.189562</coordinates></Point></Placemark>
+<Placemark><name>Brewer's Public House</name><description>Avoinna ma-to 15-24, pe 15-02, la 10-02, su 10-24. Linja-autoaseman kahvio avoinna arkisin 6.30-19, la 9-16 ja su 9-19. Arkilounas, Ala carte-lista,pizzat sekä toto ja veikkaus</description><Point><coordinates>22.703622,61.178091</coordinates></Point></Placemark>
+<Placemark><name>Evästorppa Oy</name><description>Avoinna arkisin 9-15</description><Point><coordinates>23.987778,60.193333</coordinates></Point></Placemark>
+<Placemark><name>Lounas-kahvila Hopealusikka</name><description>Avoinna arkisin 9-15</description><Point><coordinates>28.765720,61.171180</coordinates></Point></Placemark>
+<Placemark><name>Nepalilainen Ravintola Annapurna</name><description>Avoinna arkisin 11-22, viikonloppuisin 12-22</description><Point><coordinates>24.940300,60.162300</coordinates></Point></Placemark>
+<Placemark><name>Cafe Datakissa</name><description>Avoinna arkisin 7.30-15</description><Point><coordinates>26.933770,60.459490</coordinates></Point></Placemark>
+<Placemark><name>Kolarin burger &amp; Majat</name><description>Avoinna joka päivä</description><Point><coordinates>23.823780,67.339470</coordinates></Point></Placemark>
+<Placemark><name>Swing'in</name><description>Lounas-ravintola, avoinna arkisin 8-15</description><Point><coordinates>24.832800,60.178000</coordinates></Point></Placemark>
+<Placemark><name>Latokarin Puistokioski Ky</name><description>Lounas-Kahvio. Avoinna ma-pe klo 5.30-16.00</description><Point><coordinates>22.222048,60.444094</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Navetta</name><description>Keittiö auki 11-21 joka päivä</description><Point><coordinates>25.353120,65.177890</coordinates></Point></Placemark>
+<Placemark><name>Kahvila-Ravintola Kaks Ruusua</name><description>Avoinna ma-to 8-21, pe 8-22, la 12-22, su tilauksesta</description><Point><coordinates>27.897510,62.316160</coordinates></Point></Placemark>
+<Placemark><name>Kalut Opakka Oy</name><description>Avoinna arkisin klo. 10-23, viikonloppuisin sopimuksen mukaan</description><Point><coordinates>27.188240,63.559080</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Dyyni</name><description>Auki sopimuksen mukaan.</description><Point><coordinates>23.806030,64.231580</coordinates></Point></Placemark>
+<Placemark><name>Ypäjä Country Club</name><description>Avoinna kesäkuussa klo. 9-21, muulloin 9-22. Golfravintola ja golfkenttä.</description><Point><coordinates>23.235160,60.814160</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Kasi-Blanca</name><description>Avoinna ma-to 8-22, pe 8-02,la 12-02,su 12-22</description><Point><coordinates>21.849810,61.503470</coordinates></Point></Placemark>
+<Placemark><name>Pizzeria-Ravintola Kippari</name><description>Avoinna arkisin 11-22, pe-la 11-03, su 11-20</description><Point><coordinates>24.196850,65.792450</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Wossikka</name><description>Avoinna ma-to 10-23, pe 10-03, la-su 12-24. Arkisin lounas 10-14.</description><Point><coordinates>24.857570,60.224860</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Pallogrilli</name><description>Kauppakeskus Ristikon yhteydessä. Avoinna ma-pe 10-20, la 10-18</description><Point><coordinates>24.850140,60.238910</coordinates></Point></Placemark>
+<Placemark><name>Houtskärs Gästgiveri</name><description>Houtskärs Gästgiveri - Houtskarin Kestikievari</description><Point><coordinates>21.372340,60.222940</coordinates></Point></Placemark>
+<Placemark><name>Food-Ville Mankkaa</name><description>Avoinna arkisin 8-17, viikonloppuisin sopimuksen mukaan</description><Point><coordinates>24.774470,60.203350</coordinates></Point></Placemark>
+<Placemark><name>Pedrina's tex mex  Restaurant/Cantina</name><description>Avoinna ma-to 11-21, pe-la 11-23, su 12-21</description><Point><coordinates>23.131870,63.835340</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Mukkelsi</name><description>Avoinna arkisin 6.30-20.00, la 8-20, su 10-20.</description><Point><coordinates>22.907040,60.794240</coordinates></Point></Placemark>
+<Placemark><name>Motorest Karisto</name><description>Avoinna ma-la 6-24, su 8-24</description><Point><coordinates>25.737170,60.982910</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Amizza </name><description>Keskuskatu 3</description><Point><coordinates>25.318031,60.635173</coordinates></Point></Placemark>
+<Placemark><name>Meripaviljonki</name><description>Tilausravintola</description><Point><coordinates>22.197390,60.425050</coordinates></Point></Placemark>
+<Placemark><name>Ravintola St. Ranta</name><description>Avoinna Ma-to: 17-23 Pe-la: 17-03</description><Point><coordinates>22.348730,61.044350</coordinates></Point></Placemark>
+<Placemark><name>Salon Seurahuone</name><description>Avoinna ma-pe lounas 11-14.30,päivällinen 18-22, la 14-22 muina aikoina ennakkotilauksesta auki ryhmille</description><Point><coordinates>23.123910,60.385110</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Caballo Bayo</name><description>Avoinna ke-la 16-24, su 13-18, ma ja ti suljettu</description><Point><coordinates>24.065100,60.249520</coordinates></Point></Placemark>
+<Placemark><name>Raseborgs Restauranger Ab</name><description>Avoinna kesällä ma-pe 11-02 ja viikonloppuisin 12-03</description><Point><coordinates>23.432280,59.976670</coordinates></Point></Placemark>
+<Placemark><name>Varjola</name><description>Vilppulantie 51</description><Point><coordinates>25.932712,62.456566</coordinates></Point></Placemark>
+<Placemark><name>Tintin-Baari </name><description>Ammestie 4</description><Point><coordinates>24.977859,63.369539</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Tulimylly </name><description>Avoinna joka päivä 9-22</description><Point><coordinates>28.260672,61.070700</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Meritähti</name><description>Itämerenkatu 14</description><Point><coordinates>24.914979,60.163378</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Huttuhippu</name><description>Ukonhattu 1</description><Point><coordinates>27.242220,67.018890</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Kaakonranta</name><description>Avoinna ma-ti 09-24, ke 09-01, to 09-24, pe 09-03, la 12-03, su 15-24</description><Point><coordinates>29.500978,61.557718</coordinates></Point></Placemark>
+<Placemark><name>Grilli-ravintola Pillari</name><description>Kyröntie 24</description><Point><coordinates>22.757044,60.702630</coordinates></Point></Placemark>
+<Placemark><name>Golden Source</name><description>Avoinna: ma-su 11-21.30</description><Point><coordinates>24.027085,61.267796</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Kallavesj</name><description>Avoinna ma-la 10.30-15.00, lounasravintola</description><Point><coordinates>27.681278,62.891621</coordinates></Point></Placemark>
+<Placemark><name>Golfravintola Raffi</name><description>Hepoventuksentie 2</description><Point><coordinates>23.088726,63.818697</coordinates></Point></Placemark>
+<Placemark><name>Sallainen Maja</name><description>Hautajärventie 32</description><Point><coordinates>28.721473,66.795009</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Nolla</name><description>Lounas arkisin klo 11-15/ Afterwork perjantaisin klo 17-21/ Brunssi lauantaisin klo 12-16</description><Point><coordinates>24.928615,60.170791</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Kayatepe Tmi</name><description>Avoinna; ma,ti,to 11-23, ke11-01, pe-la 11-03, su 11-01. A la carte, A-oikeudet, tex mex, karaoke, elävää musiikkia</description><Point><coordinates>24.057906,60.273351</coordinates></Point></Placemark>
+<Placemark><name>Oliivi Pizzeria avoin yhtiö</name><description>Asemantie 1</description><Point><coordinates>24.316807,60.330077</coordinates></Point></Placemark>
+<Placemark><name>Chinese restaurant Red Apple</name><description>Postikuja 2, Sanomatalo 2kr.</description><Point><coordinates>24.938342,60.172105</coordinates></Point></Placemark>
+<Placemark><name>Cafe Anton Oy</name><description>Avoinna ark. 11-02, pe-la 11-03, su 13-02</description><Point><coordinates>21.795787,61.486969</coordinates></Point></Placemark>
+<Placemark><name>Pizza-Kebab 14</name><description>Sammonkatu 14</description><Point><coordinates>23.795326,61.497872</coordinates></Point></Placemark>
+<Placemark><name>Konditoria-Kahvila Sahrami</name><description>Avoinna ark. 7-19 la 8-17 su 11-16, katso lisää osoitteesta www.sahrami.com!</description><Point><coordinates>23.031576,63.117225</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Roze</name><description>Anniskeluravintola ja pizzeria, avoinna ma-su klo 10-02</description><Point><coordinates>25.068365,60.487158</coordinates></Point></Placemark>
+<Placemark><name>Timbaali Oy</name><description>Avoinna ma-la 11-23, su 12-18</description><Point><coordinates>25.658434,60.395168</coordinates></Point></Placemark>
+<Placemark><name>Pyre's Ab</name><description>Pyre´s CAFÉ avoinna:  Ma - Pe 7 - 17, La 8 - 15</description><Point><coordinates>23.659181,60.070915</coordinates></Point></Placemark>
+<Placemark><name>Ravintola Pizzeria Del Ponte</name><description>ti-to klo 11-21 pe-la klo 11-02 su klo 11-21</description><Point><coordinates>24.811529,66.089562</coordinates></Point></Placemark>
+</Folder></kml>
