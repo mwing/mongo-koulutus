@@ -1,2 +1,6 @@
 scala + scalatra + casbah stuff goes here
 
+to run, clone mongo-koulutus, change to scala directory and run:
+./sbt update
+./sbt jetty
+
