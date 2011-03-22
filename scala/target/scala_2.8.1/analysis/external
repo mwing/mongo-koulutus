@@ -1,6 +1,0 @@
-#External Dependencies
-#Tue Mar 22 20:32:20 EET 2011
-/Users/miso/Projects/mongo-koulutus/scala/lib_managed/scala_2.8.1/provided/servlet-api-2.5-20081211.jar=src/main/scala/fi/reaktor/MongoFilter.scala
-/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar=src/main/scala/fi/reaktor/MongoFilter.scala
-/Users/miso/Projects/mongo-koulutus/scala/project/boot/scala-2.8.1/lib/scala-library.jar=src/main/scala/fi/reaktor/MongoFilter.scala
-/Users/miso/Projects/mongo-koulutus/scala/lib_managed/scala_2.8.1/compile/scalatra_2.8.1-2.0.0.M2.jar=src/main/scala/fi/reaktor/MongoFilter.scala
