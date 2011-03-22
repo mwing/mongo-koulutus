@@ -1,2 +1,5 @@
 target/
-project/build/target/
+lib_managed/
+src_managed/
+project/boot/
+
