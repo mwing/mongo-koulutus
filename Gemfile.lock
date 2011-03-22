@@ -1,0 +1,50 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.5)
+    bson (1.2.4)
+    bson_ext (1.1.2)
+    diff-lcs (1.1.2)
+    i18n (0.4.2)
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
+    mongo (1.1.2)
+      bson (>= 1.1.1)
+    mongo_mapper (0.8.6)
+      activesupport (>= 2.3.4)
+      jnunemaker-validatable (~> 1.8.4)
+      plucky (~> 0.3.6)
+    plucky (0.3.7)
+      mongo (~> 1.1)
+    rack (1.2.2)
+    rack-test (0.5.6)
+      rack (>= 1.0)
+    rake (0.8.7)
+    rspec (2.3.0)
+      rspec-core (~> 2.3.0)
+      rspec-expectations (~> 2.3.0)
+      rspec-mocks (~> 2.3.0)
+    rspec-core (2.3.1)
+    rspec-expectations (2.3.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.3.0)
+    shotgun (0.8)
+      rack (>= 1.0)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  i18n
+  mongo (= 1.1.2)
+  mongo_mapper (= 0.8.6)
+  rack-test (= 0.5.6)
+  rake (= 0.8.7)
+  rspec (= 2.3.0)
+  shotgun (= 0.8)
+  sinatra (= 1.1.0)
