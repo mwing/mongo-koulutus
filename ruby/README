@@ -1,2 +1,2 @@
-To run execute 'bundle exec shotgun -p <port> config.ru'
+To run execute 'bundle install' && 'bundle exec shotgun -p <port> config.ru'
 
