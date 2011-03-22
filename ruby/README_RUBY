@@ -1,0 +1,2 @@
+To run execute 'bundle exec shotgun -p <port> config.ru'
+
