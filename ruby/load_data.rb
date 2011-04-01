@@ -8,7 +8,10 @@ MongoMapper.database = "3sq"
 file = File.new(File.join("..", "Ravintolat_GE.kml"))
 doc = Document.new(file)
 doc.root.each_element("Folder/Placemark"){ |elem|  
-  hash = {:name => elem.text("name"), :location => elem.text("Point/coordinates").split(",")}
+  coords = elem.text("Point/coordinates").split(",")
+  lat = coords.first.to_f
+  long = coords.last.to_f
+  hash = {:name => elem.text("name"), :location => [lat, long]}
   Venue.create(hash)
   puts hash
 }
