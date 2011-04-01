@@ -12,7 +12,7 @@ class MongoProject(info: ProjectInfo) extends DefaultWebProject(info) {
   val bumRels = "bum-releases" at "http://repo.bumnetworks.com/releases" 
   val bumSnaps = "bum-snapshots" at "http://repo.bumnetworks.com/snapshots" 
   val casbah = "com.novus" % "casbah_2.8.0" % "1.0.8.5" 
-  
+  val rogue = "com.foursquare" % "rogue_2.8.0" % "1.0.3" withSources()  
   val scalatest = "org.scalatra" %% "scalatra-scalatest" % scalatraVersion % "test"
   val slf4jBinding = "ch.qos.logback" % "logback-classic" % "0.9.25" % "runtime"
   override def testClasspath = super.testClasspath +++ buildCompilerJar
