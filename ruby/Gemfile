@@ -2,7 +2,7 @@ source "http://rubygems.org"
 gem 'sinatra', "1.1.0"
 gem 'i18n'
 gem 'mongo_mapper', "0.8.6"
-gem 'mongo', "1.1.2"
+gem 'mongo'
 gem 'bson_ext'
 group :test do
   gem 'rack-test', "0.5.6", :require => "rack/test"
