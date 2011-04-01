@@ -3,7 +3,7 @@ gem 'sinatra', "1.1.0"
 gem 'i18n'
 gem 'mongo_mapper', "0.8.6"
 gem 'mongo'
-gem 'bson_ext'
+gem 'bson_ext', "1.2.4"
 group :test do
   gem 'rack-test', "0.5.6", :require => "rack/test"
   gem 'rspec', "2.3.0"
