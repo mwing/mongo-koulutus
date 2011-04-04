@@ -3,7 +3,7 @@ require 'rexml/document'
 require File.join(File.dirname(__FILE__), "lib", "documents") 
 include REXML
 
-MongoMapper.database = "3sq"
+MongoMapper.database = "test"
 
 file = File.new(File.join("..", "Ravintolat_GE.kml"))
 doc = Document.new(file)
