@@ -2,12 +2,8 @@ package fi.reaktor
 
 import org.scalatra._
 import net.liftweb.json._
-import net.liftweb.json.Extraction._
-import net.liftweb.json.Printer._
 import net.liftweb.json.JsonAST._
-import net.liftweb.json.JsonDSL._
 import net.liftweb.json.Serialization.{read, write}
-import com.mongodb.{BasicDBObject, BasicDBList}
 import com.novus.casbah.mongodb.{MongoDBObject, MongoConnection}
 
 class MongoFilter extends ScalatraFilter {
