@@ -32,7 +32,7 @@ class MongoFilter extends ScalatraFilter {
   get("/") {
     <html>
       <head>
-        <title>mongo-koulutus</title>
+        <title>MongoDB</title>
       </head> <body>
       <h4>Urls</h4>
       <ul>
