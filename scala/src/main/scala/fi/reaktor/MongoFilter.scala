@@ -7,12 +7,14 @@ import net.liftweb.mongodb._
 import com.foursquare.rogue.Rogue._
 import com.foursquare.rogue.Degrees
 import java.util.regex.Pattern
+import com.mongodb.DBAddress
 
 class MongoFilter extends ScalatraFilter {
   implicit val formats = Serialization.formats(NoTypeHints) + new VenueSerializer
   // failover doesn't seem to work!
   //  MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 37017), "3sq"))
-  MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 27017), "3sq"))
+  val replicaSet = MongoPair(new DBAddress("127.0.0.1", 27017, "3sq"), new DBAddress("127.0.0.1", 37017, "3sq"))
+  MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(replicaSet, "3sq"))
 
   get("/venues/list") {
     write(Venue.fetch())

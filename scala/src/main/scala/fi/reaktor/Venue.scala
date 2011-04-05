@@ -1,12 +1,12 @@
 package fi.reaktor
 
-import net.liftweb.json._
-import net.liftweb.json.JsonAST._
 import net.liftweb.record.field.StringField
 import net.liftweb.mongodb.record.{MongoMetaRecord, MongoId, MongoRecord}
 import net.liftweb.mongodb.MongoIdentifier
 import com.foursquare.rogue.LatLong
 import net.liftweb.mongodb.record.field.MongoCaseClassField
+import net.liftweb.json.JsonAST.JValue
+import net.liftweb.json.{TypeInfo, Formats, Serializer}
 
 class VenueSerializer extends Serializer[Venue] {
   private val venueClass = classOf[Venue]
