@@ -10,6 +10,8 @@ import java.util.regex.Pattern
 
 class MongoFilter extends ScalatraFilter {
   implicit val formats = Serialization.formats(NoTypeHints) + new VenueSerializer
+  // failover doesn't seem to work!
+  //  MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 37017), "3sq"))
   MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 27017), "3sq"))
 
   get("/venues/list") {

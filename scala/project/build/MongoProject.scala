@@ -10,7 +10,7 @@ class MongoProject(info: ProjectInfo) extends DefaultWebProject(info) {
  
   val slf4jBinding = "ch.qos.logback" % "logback-classic" % "0.9.28" % "runtime"
 
-  val casbah = "com.novus" % "casbah_2.8.0" % "1.0.8.5"
+  val casbah = "com.mongodb.casbah" % "casbah_2.8.0" % "2.1.1"
   val rogue = "com.foursquare" % "rogue_2.8.0" % "1.0.6" withSources()
   val scalatest = "org.scalatra" %% "scalatra-scalatest" % scalatraVersion % "test"
 
