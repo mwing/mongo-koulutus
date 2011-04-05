@@ -13,7 +13,6 @@ class MongoProject(info: ProjectInfo) extends DefaultWebProject(info) {
 
   val slf4jBinding = "ch.qos.logback" % "logback-classic" % "0.9.28" % "runtime"
 
-//  val casbah = "com.mongodb.casbah" % "casbah_2.8.0" % "2.1.1"
   val rogue = "com.foursquare" % "rogue_2.8.0" % "1.0.6" withSources()
   val scalatest = "org.scalatra" %% "scalatra-scalatest" % scalatraVersion % "test"
 
@@ -23,7 +22,4 @@ class MongoProject(info: ProjectInfo) extends DefaultWebProject(info) {
   val fuseSourceSnapshots = "FuseSource Snapshot Repository" at "http://repo.fusesource.com/nexus/content/repositories/snapshots"
   val stRels = "scalatools-releases" at "http://scala-tools.org/repo-releases"
   val stSnaps = "scalatools-snapshots" at "http://scala-tools.org/repo-snapshots"
-
-//  val bumRels = "bum-releases" at "http://repo.bumnetworks.com/releases"
-//  val bumSnaps = "bum-snapshots" at "http://repo.bumnetworks.com/snapshots"
 }
