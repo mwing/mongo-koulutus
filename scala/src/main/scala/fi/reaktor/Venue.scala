@@ -12,13 +12,7 @@ class VenueSerializer extends Serializer[Venue] {
   private val venueClass = classOf[Venue]
 
   def deserialize(implicit format: Formats): PartialFunction[(TypeInfo, JValue), Venue] = {
-    case (TypeInfo(venueClass, _), json) => json match {
-      case JObject( JField("_id", JString(id)) ::
-                    JField("name", JString(name)) ::
-                    JField("location", JArray(List(JDouble(lat), JDouble(long)))) ::
-                    Nil) => Venue
-      case x => throw new MappingException("Can't convert " + x + " to Venue")
-    }
+    case (TypeInfo(venueClass, _), json) => Venue.fromJValue(json).get
   }
 
   def serialize(implicit format: Formats): PartialFunction[Any, JValue] = {
