@@ -9,7 +9,6 @@ import com.foursquare.rogue.Degrees
 import java.util.regex.Pattern
 
 class MongoFilter extends ScalatraFilter {
-
   implicit val formats = Serialization.formats(NoTypeHints) + new VenueSerializer
   MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 27017), "3sq"))
 
