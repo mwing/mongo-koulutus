@@ -6,8 +6,8 @@ To run, clone mongo-koulutus, change to scala directory and run:
 
 To hack, either open new project in your ide or use https://github.com/mpeltonen/sbt-idea
 to generate IDEA project files.
-* MongoFilter contains the simple rest-like api
-* Venue contains the domain classes and the serialization code for json
-* MongoProject contains the project definition for the sbt project
+* src/main/scala/fi/reaktor/MongoFilter contains the simple rest-like api
+* src/main/scala/fi/reaktor/Venue contains the domain classes and the serialization code for json
+* project/build/MongoProject contains the project definition for the sbt project
 
 Tests shall go to the src/test/scala
