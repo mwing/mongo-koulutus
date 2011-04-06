@@ -6,10 +6,10 @@ class MongoProject(info: ProjectInfo) extends DefaultWebProject(info) {
   val servletApi = "org.mortbay.jetty" % "servlet-api" % "2.5-20081211" % "provided"
   
   // Json
-  val liftJson = "net.liftweb" %% "lift-json" % "2.3-M1"
+  val liftJson = "net.liftweb" %% "lift-json" % "2.3"
   // override Rogue dependencies to achieve ReplicaSet failover functionality
-  val liftMongoRecord = "net.liftweb" %% "lift-mongodb-record" % "2.3-M1" withSources()
-  val liftMongo = "net.liftweb" %% "lift-mongodb" % "2.3-M1" withSources()
+  val liftMongoRecord = "net.liftweb" %% "lift-mongodb-record" % "2.3" withSources()
+  val liftMongo = "net.liftweb" %% "lift-mongodb" % "2.3" withSources()
 
   val slf4jBinding = "ch.qos.logback" % "logback-classic" % "0.9.28" % "runtime"
 
