@@ -5,3 +5,7 @@ class Venue
   include MongoMapper::Document
 end
 
+class User
+  include MongoMapper::Document
+end
+
