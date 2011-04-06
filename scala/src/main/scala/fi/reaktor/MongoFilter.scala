@@ -15,7 +15,7 @@ class MongoFilter extends ScalatraFilter {
   // Use this for single instance mongo
     MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 27017), "3sq"))
 
-  // use this for replicaset, works for single instance as well, but throws exceptions due to not reaching the 2nd server
+  //use this for replicaset, works for single instance as well, but throws exceptions due to not reaching the 2nd server
   //val replicaSet = MongoPair(new DBAddress("127.0.0.1", 27017, "3sq"), new DBAddress("127.0.0.1", 37017, "3sq"))
   //MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(replicaSet, "3sq"))
 
