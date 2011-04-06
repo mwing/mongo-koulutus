@@ -10,7 +10,7 @@ import java.util.regex.Pattern
 import com.mongodb.DBAddress
 
 class MongoFilter extends ScalatraFilter {
-  implicit val formats = Serialization.formats(NoTypeHints) + new VenueSerializer
+  implicit val formats = Serialization.formats(NoTypeHints) + new VenueSerializer + new UserSerializer
 
   // Use this for single instance mongo
   MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(MongoHost("127.0.0.1", 27017), "3sq"))
@@ -19,8 +19,12 @@ class MongoFilter extends ScalatraFilter {
   //val replicaSet = MongoPair(new DBAddress("127.0.0.1", 27017, "3sq"), new DBAddress("127.0.0.1", 37017, "3sq"))
   //MongoDB.defineDb(ThreeSquareMongoIdentifier, MongoAddress(replicaSet, "3sq"))
 
+  get("/users/list") {
+    write(User.fetch)
+  }
+
   get("/venues/list") {
-    write(Venue.fetch())
+    write(Venue.fetch)
   }
 
   get("/venues/search/:name") {

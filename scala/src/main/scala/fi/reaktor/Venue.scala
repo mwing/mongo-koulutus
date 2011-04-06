@@ -19,16 +19,36 @@ class VenueSerializer extends Serializer[Venue] {
   }
 }
 
-class Venue extends MongoRecord[Venue] with MongoId[Venue] {
-  def meta = Venue
-  object name extends StringField(this, 255)
-  object location extends MongoCaseClassField[Venue, LatLong](this)
+class UserSerializer extends Serializer[User] {
+  private val userClass = classOf[User]
+
+  def deserialize(implicit format: Formats): PartialFunction[(TypeInfo, JValue), User] = {
+    case (TypeInfo(userClass, _), json) => User.fromJValue(json).get
+  }
+  def serialize(implicit format: Formats): PartialFunction[Any, JValue] = {
+    case x: User => x.asJValue
+  }
 }
 
 object ThreeSquareMongoIdentifier extends MongoIdentifier {
   override val jndiName = "3sq"
 }
 
+class Venue extends MongoRecord[Venue] with MongoId[Venue] {
+  def meta = Venue
+  object name extends StringField(this, 255)
+  object location extends MongoCaseClassField[Venue, LatLong](this)
+}
+
 object Venue extends Venue with MongoMetaRecord[Venue] {
+  override def mongoIdentifier = ThreeSquareMongoIdentifier
+}
+
+class User extends MongoRecord[User] with MongoId[User] {
+  def meta = User
+  object name extends StringField(this, 255)
+}
+
+object User extends User with MongoMetaRecord[User] {
   override def mongoIdentifier = ThreeSquareMongoIdentifier
 }

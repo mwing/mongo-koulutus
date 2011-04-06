@@ -17,6 +17,12 @@ class MongoFilterSuite extends ScalatraFunSuite with ShouldMatchers {
     }
   }
 
+  test("List of users has 27 awesome users") {
+    get("/users/list") {
+      read[List[User]](response.getContent).size should equal(27)
+    }
+  }
+
   test("List of venues is not empty") {
     get("/venues/list") {
       read[List[Venue]](response.getContent).size should equal(131)
