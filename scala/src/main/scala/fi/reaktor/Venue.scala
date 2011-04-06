@@ -14,7 +14,6 @@ class VenueSerializer extends Serializer[Venue] {
   def deserialize(implicit format: Formats): PartialFunction[(TypeInfo, JValue), Venue] = {
     case (TypeInfo(venueClass, _), json) => Venue.fromJValue(json).get
   }
-
   def serialize(implicit format: Formats): PartialFunction[Any, JValue] = {
     case x: Venue => x.asJValue
   }
