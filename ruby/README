@@ -10,3 +10,11 @@ gem install bundler
 
 if you can't find bundler, make sure your GEM_HOME points to the correct location (usually ~/.gem)
 
+To load up the preformatted data to collections venues & users, run:
+* cd mongo-koulutus
+* mongodump dump/3sq
+
+or alternatively change to the ruby directory and just execute
+* bundle install (if not done already)
+* ruby load_data.rb
+
