@@ -15,4 +15,4 @@ doc.root.each_element("Folder/Placemark"){ |elem|
   Venue.create(hash)
   puts hash
 }
-
+Venue.ensure_index([[:location, "2d"]])
