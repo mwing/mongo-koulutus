@@ -47,6 +47,7 @@ class MongoFilter extends ScalatraFilter {
       </head> <body>
       <h4>Urls</h4>
       <ul>
+         <li><a href="/users/list">/users/list</a></li>
          <li><a href="/venues/list">/venues/list</a></li>
          <li><a href="/venues/search/Zorbas">/venues/search/(part of venue name)</a></li>
          <li><a href="/venues/near/24/60">/venues/near/(latitude)/(longtitude)</a></li>
