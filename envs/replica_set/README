@@ -6,13 +6,13 @@ Launch nodes:
 
 Initialize replica set (run only once)
 
-    ./replicaset_init.sh
+    ./rs1_init.sh
     
 Connect to replicaset:
     
     mongo # if node1 is PRIMARY
-    mongo --port 37017 # if node2 is PRIMARY
-    mongo --port 47017 # if node3 is PRIMARY
+    mongo --port 27117 # if node2 is PRIMARY
+    mongo --port 27217 # if node3 is PRIMARY
 
 Before querying in SECONDARY:
 
