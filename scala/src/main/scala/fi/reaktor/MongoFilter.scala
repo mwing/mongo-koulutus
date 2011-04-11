@@ -23,6 +23,11 @@ class MongoFilter extends ScalatraFilter {
     write(User.fetch)
   }
 
+  get("/users/friends/:user") {
+    val user = User.where(_.name eqs params("user")).get
+    user.get.friends.get.mkString("[", ",", "]")
+  }
+
   get("/venues/list") {
     write(Venue.fetch)
   }

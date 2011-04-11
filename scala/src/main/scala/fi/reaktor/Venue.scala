@@ -4,6 +4,7 @@ import net.liftweb.record.field.StringField
 import net.liftweb.mongodb.record.{MongoMetaRecord, MongoId, MongoRecord}
 import net.liftweb.mongodb.MongoIdentifier
 import com.foursquare.rogue.LatLong
+import net.liftweb.mongodb.record.field._
 import net.liftweb.mongodb.record.field.MongoCaseClassField
 import net.liftweb.json.JsonAST.JValue
 import net.liftweb.json.{TypeInfo, Formats, Serializer}
@@ -47,6 +48,7 @@ object Venue extends Venue with MongoMetaRecord[Venue] {
 class User extends MongoRecord[User] with MongoId[User] {
   def meta = User
   object name extends StringField(this, 255)
+  object friends extends MongoListField[User, String](this)
 }
 
 object User extends User with MongoMetaRecord[User] {
