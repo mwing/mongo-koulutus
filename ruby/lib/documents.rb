@@ -7,5 +7,6 @@ end
 
 class User
   include MongoMapper::Document
+  key :friends, Array
 end
 
