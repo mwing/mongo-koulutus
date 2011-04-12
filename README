@@ -3,7 +3,7 @@ This project is a playground for a MongoDB training session. It showcases some s
 We've split this app in two distinct parts, with some general stuff thrown in the mix as well.
 
 * dump
-    * This folder contains some test data for the system. Use 'mongorestore dump' to load the data
+    * This folder contains some test data for the system. Use 'mongorestore dump/' to load the data
 
 * envs
     * Sample environments (in localhost) are shown here. With the scripts you can start 1 or 2 replica sets or even start a shard from those.
