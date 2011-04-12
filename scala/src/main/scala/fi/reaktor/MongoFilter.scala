@@ -23,9 +23,20 @@ class MongoFilter extends ScalatraFilter {
     write(User.fetch)
   }
 
-  get("/users/friends/:user") {
+  get("/user/:user/friends") {
     val user = User.where(_.name eqs params("user")).get
-    user.get.friends.get.mkString("[", ",", "]")
+    user.get.friends.get.mkString("{friends:[", ",", "]}") // Well only return friends here, so no asJSON method available :)
+  }
+
+  get("/user/:user/friends/add/:friend") {
+    val query = User.where(_.name eqs params("user")) modify (_.friends push  params("friend")) updateOne()
+    val user:User = User.where(_.name eqs params("user")).get.get // First get is to do a "fetch(1).head", second is the call get to Option[User]
+    user.asJSON
+  }
+
+  get("/user/:user/friends/remove/:friend") {
+    val query = User.where(_.name eqs params("user")) modify (_.friends pull params("friend")) updateOne()
+    User.where(_.name eqs params("user")).get.get.asJSON
   }
 
   get("/venues/list") {
