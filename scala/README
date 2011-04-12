@@ -16,3 +16,8 @@ To load up the preformatted data to collections venues & users, run:
 * cd mongo-koulutus
 * mongodump dump/3sq
 
+
+Links:
+* Scalatra - https://github.com/scalatra/scalatra/
+* Rogue - https://github.com/foursquare/rogue/
+* lift-json - https://github.com/lift/lift/tree/master/framework/lift-base/lift-json/
