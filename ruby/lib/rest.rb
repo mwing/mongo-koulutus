@@ -32,7 +32,7 @@ class MongoRestApp < Sinatra::Base
     User.all.to_json
   end
 
-  get "/friends/list/:user" do |user|
+  get "/friends/:user/list" do |user|
     friends = (u = User.first(:name => user) and u.friends) || []
     friends.to_json
   end
