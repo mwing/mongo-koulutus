@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require File.join(File.dirname(__FILE__), "documents.rb")
+
 MongoMapper.database = "3sq"
 
 class MongoRestApp < Sinatra::Base
