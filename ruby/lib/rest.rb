@@ -52,6 +52,7 @@ class MongoRestApp < Sinatra::Base
   end
 
     get "/" do
+        content_type "text/html", :charset => "UTF-8"
     <<INDEX
 <html>
     <head>
