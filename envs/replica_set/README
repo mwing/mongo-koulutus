@@ -1,6 +1,6 @@
-Launch nodes:
+Launch replica set:
 
-    ./run.sh
+    ./rs1.sh
 
     tail -f logs/*
 
