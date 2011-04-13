@@ -4,6 +4,11 @@ require File.join(File.dirname(__FILE__), "documents.rb")
 MongoMapper.database = "3sq"
 
 class MongoRestApp < Sinatra::Base
+
+  before {
+    content_type "text/plain", :charset => "UTF-8"
+  }
+
   get "/venues/list" do
     Venue.fields(:name).all.to_json
   end

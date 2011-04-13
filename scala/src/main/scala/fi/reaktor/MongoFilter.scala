@@ -29,7 +29,7 @@ class MongoFilter extends ScalatraFilter {
 
   get("/friends/:user/add/:friend") {
     val query = User.where(_.name eqs params("user")) modify (_.friends push  params("friend")) updateOne()
-    val user:User = User.where(_.name eqs params("user")).get.get // First get is to do a "fetch(1).head", second is the call get to Option[User]
+    val user:User = User.where(_.name eqs params("user")).get.get // First get is a wrapper around "fetch(1).head", second is the call get to Option[User]
     user.asJSON
   }
 
