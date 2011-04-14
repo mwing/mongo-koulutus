@@ -14,7 +14,7 @@ Tests shall go to the src/test/scala
 
 To load up the preformatted data to collections venues & users, run:
 * cd mongo-koulutus
-* mongodump dump/3sq
+* mongorestore dump/3sq
 
 
 Links:
